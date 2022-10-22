@@ -1,0 +1,37 @@
+nav{
+    ul{
+        li{
+            a{
+                text-decoration: none;
+                font-size: 3.5rem;  
+            }
+        }
+    }
+}
+.nav__color{
+    color: $cuartoColor;
+}
+.nav__text{
+    font-family: $textFont;
+    font-size: 3.5rem;
+}
+.logo__alma{
+    width: 120px;
+    height: 120px;
+    background-image: none;
+    background-size: cover;
+    border-radius: 65px;
+}
+.logo__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton__hamburguesa{
+    width: 40px;
+}

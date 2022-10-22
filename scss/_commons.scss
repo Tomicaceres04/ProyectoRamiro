@@ -1,0 +1,31 @@
+//Colors
+$backColor:#10403B;
+$secondColor:#255954;
+$tresColor:#397373;
+$cuartoColor:#92A693;
+$quintoColor:#A4BFA3;
+$sextoColor:#000D0C;
+$white:#DFF2F0;
+$green:#F0F2F0;
+$boxShadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fondo__color{
+    background: rgb(16,64,59);
+    background: radial-gradient(circle, rgba(16,64,59,1) 25%, rgba(57,115,115,1) 86%);
+}
+.gradient__color--tres{
+    background: rgb(16,64,59);
+    background: radial-gradient(circle, rgba(16,64,59,1) 25%, rgba(57,115,115,1) 86%);
+}
+.gradient__color--dos{
+    background: rgb(37,89,84);
+    background: radial-gradient(circle, rgba(37,89,84,1) 10%, rgba(146,166,147,1) 17%, rgba(57,115,115,1) 64%);
+}
+.gradient__color--cuatro{
+    background: rgb(37,89,84);
+    background: radial-gradient(circle, rgba(37,89,84,1) 49%, rgba(57,115,115,1) 98%);
+}

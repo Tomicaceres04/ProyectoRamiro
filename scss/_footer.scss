@@ -1,0 +1,45 @@
+.iconos{
+    width: 80px;
+    position: relative;
+}
+.titulos__footer{
+    font-size: 3rem;
+    color: $green;
+    position: relative;
+}
+.text__footer{
+    font-size: 2.3rem;
+    color: $white;
+    position: relative;
+    margin-left: 10px;
+}
+.back__footer{
+    position: relative;
+
+    &:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url(/img/bgggg.jpg);
+        background-position: center;
+        background-size: cover;
+        opacity: .5;
+    }
+}
+.centrar__footer{
+    display: flex;
+    align-items: center;
+}
+.caja__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.logo__footer{
+    position: relative;
+}
+.cajitas__footer{
+    display: flex;
+    flex-direction: column;
+}  

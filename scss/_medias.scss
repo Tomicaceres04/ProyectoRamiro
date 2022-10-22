@@ -1,0 +1,27 @@
+@media (min-width:400px){
+    .texto__caja--back{
+        font-size: 2.5rem;
+    }
+    .caja__back{
+        height: 65vh;
+    }
+}
+@media (min-width:768px){
+    .caja__footer{
+        flex-direction: row;
+    }
+    .logo__footer{
+        width: 300px;
+        margin: auto;
+    }
+}
+@media (max-width:992px){
+    .logo__alma{
+        margin-right: 50px;
+    }
+}
+@media (min-width:1024px){
+    .caja__footer{
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,70 @@
+.carousel__img{
+    object-fit: cover;
+    width: 100vw;
+    height: 50vh;
+}
+.text__compra{
+    font-size: 3rem;
+    text-align: justify;
+    text-align: center;
+    color: $green;
+}
+.card_section{
+    box-shadow: $boxShadow;
+    &:hover{
+        box-shadow: 1px 1px 20px #2d2d2d;
+    }
+}
+.card__ani{
+    transition: all 300ms;
+    &:hover{
+        transform: scale(1.10);
+    }
+}
+.precio{
+    font-size: 2rem;
+    color: $cuartoColor;
+    font-weight: bold;
+}
+.text__color{
+    color: $quintoColor;
+}
+.caja__back{
+    opacity: 1;
+    width: 100%;
+    height: 65%;
+    
+    position: relative;
+
+    &:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url(/img/bg1.jpg);
+        background-position: center;
+        background-size: cover;
+        opacity: .3;
+    }
+}
+.texto__caja--back{
+    text-align: justify;
+    font-size: 2rem;
+    text-align: center;
+    color: $white;
+    margin: 10px;
+    position: relative;
+}
+.centrar__texto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.titulo__caja--back{
+    text-align: justify;
+    font-size: 3.5rem;
+    text-align: center;
+    color: $green;
+    margin: 10px;
+    position: relative;
+}
